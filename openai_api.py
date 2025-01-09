@@ -9,7 +9,6 @@ os.chdir(my_directory)
 print(my_directory)
 
 # define a secret key
-os.environ["OPENAI_API_KEY"] = "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"
 
 from openai import OpenAI
 client = OpenAI()
